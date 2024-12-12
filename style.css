@@ -1,0 +1,61 @@
+#mainDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+}
+
+.btnLayer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+   
+}
+#btnStart {
+    display: flex;
+    background-color: blue;
+    color: white;
+    margin-right: 30px;
+    border-radius: 15px;
+    height: 40px;
+    width: 75px;
+    margin: 10px;
+    justify-content: center;
+   
+}
+
+#btnStop {
+    display: flex;
+    width: 75px;
+    height: 40px;
+    border-radius: 15px;
+    border-left: 20px;
+    background-color: red;
+    color: white;
+    justify-content: center;
+    
+}
+
+#btnStart:hover {
+    background-color: rgb(255, 255, 255);
+    color: blue
+}
+
+#btnStop:hover {
+    background-color: rgb(255, 255, 255);
+    color: red
+}
+
+#toster {
+    width: 100px;
+    height: 100px;
+}
+
+#timer {
+    padding-top: 30px;
+}
