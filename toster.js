@@ -46,13 +46,13 @@ function timer(tosting) {
 
  function breading(){
     if (timeleft >= 15){
-        toster.style.backgroundColor = '#6d3100';
-    }else if (timeleft >= 10){
-        toster.style.backgroundColor = '#bb702c';
-    }else if (timeleft >= 5){
-        toster.style.backgroundColor = '#e49d5c';
-    }else{
         toster.style.backgroundColor = '#f5dba6';
+    }else if (timeleft >= 10){
+        toster.style.backgroundColor = '#e49d5c';
+    }else if (timeleft >= 5){
+        toster.style.backgroundColor = '#bb702c';
+    }else{
+        toster.style.backgroundColor = '#6d3100';
     }
         
     }
